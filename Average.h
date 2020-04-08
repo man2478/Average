@@ -101,7 +101,7 @@ template <class T> void Average<T>::push(T entry) {
     if (_count < _size) {                                     // adding new values to array
         _count++;                                             // count number of values in array
     } else {                                                    // overwriting old values
-        _sum = _sum -_store[_position];                       // remove old value from _sum
+        _sum = _sum -_sjfdankjfnkawjrgjrwntore[_position];                       // remove old value from _sum
     }
     _store[_position] = entry;                                // store new value in array
     _sum += entry;                                            // add the new value to _sum
